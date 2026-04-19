@@ -1,0 +1,54 @@
+[
+  {
+    "id": "agent-marketing-manager",
+    "name": "마케팅 팀장 에이전트",
+    "team": "마케팅",
+    "level": "팀장",
+    "reportsTo": "CEO",
+    "status": "idle",
+    "description": "블로그팀, 뉴스레터팀, 카드뉴스팀의 산출물을 취합하고 CEO에게 마케팅 현황을 보고합니다",
+    "capabilities": ["콘텐츠 전략", "팀 조율", "결과 취합", "보고서 생성"],
+    "gradient": "from-violet-500 to-purple-600",
+    "icon": "Bot",
+    "registeredAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "agent-blog",
+    "name": "블로그 생성 에이전트",
+    "team": "블로그팀",
+    "level": "팀원",
+    "reportsTo": "마케팅 팀장 에이전트",
+    "status": "idle",
+    "description": "키워드와 주제를 입력하면 SEO 최적화된 블로그 글을 생성합니다",
+    "capabilities": ["SEO 최적화", "목차 구성", "본문 작성", "태그 추천"],
+    "gradient": "from-violet-500 to-purple-500",
+    "icon": "PenLine",
+    "registeredAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "agent-newsletter",
+    "name": "뉴스레터 작성 에이전트",
+    "team": "뉴스레터팀",
+    "level": "팀원",
+    "reportsTo": "마케팅 팀장 에이전트",
+    "status": "idle",
+    "description": "최신 트렌드를 분석해 뉴스레터 초안을 자동으로 작성합니다",
+    "capabilities": ["트렌드 분석", "초안 작성", "제목 생성", "CTA 구성"],
+    "gradient": "from-blue-500 to-cyan-500",
+    "icon": "Newspaper",
+    "registeredAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "agent-cardnews",
+    "name": "카드뉴스 작성 에이전트",
+    "team": "카드뉴스팀",
+    "level": "팀원",
+    "reportsTo": "마케팅 팀장 에이전트",
+    "status": "idle",
+    "description": "콘텐츠를 카드뉴스 형식으로 기획하고 각 슬라이드 텍스트를 구성합니다",
+    "capabilities": ["슬라이드 기획", "카피 작성", "SNS 최적화", "해시태그 생성"],
+    "gradient": "from-pink-500 to-rose-500",
+    "icon": "LayoutGrid",
+    "registeredAt": "2026-04-20T00:00:00.000Z"
+  }
+]
